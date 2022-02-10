@@ -1,1 +1,1 @@
-# Repo for JAVA LAB KTU
+# Repo for S3 JAVA LAB KTU
