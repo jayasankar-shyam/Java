@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.*;
 public class FileTextIn {
   public static void main(String[] args)throws IOException {
-		// TODO Auto-generated method stub
+		
         File f=new File("mytext.txt");
         Scanner sc =new Scanner(System.in);
         if(f.exists())
