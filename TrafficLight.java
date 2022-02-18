@@ -12,7 +12,7 @@ public class TrafficLight  extends JFrame implements ActionListener {
 		setLayout(new FlowLayout());
 		c=getContentPane();
 		label=new JLabel(" Traffic Light");
-		display =new JTextField(10);
+		display =new JTextField(20);
 		r1=new JRadioButton("Red");
 		r2=new JRadioButton("Yellow");
 		r3=new JRadioButton("Green");
@@ -37,17 +37,17 @@ public class TrafficLight  extends JFrame implements ActionListener {
 		if(ie.getSource()==r1)
 		{
 			c.setBackground(Color.red);
-			display.setText("Red light");
+			display.setText("RED : TURNED ON");
 		}
 		else if (ie.getSource()==r2)
 		{
 			c.setBackground(Color.yellow);
-			display.setText("Yellow light");
+			display.setText("YELLOW : TURNED ON");
 		}
 		else if (ie.getSource()==r3)
 		{
 			c.setBackground(Color.green);
-			display.setText("Green light");
+			display.setText("GREEN : TURNED ON");
 		}
 	}
 	public static void main(String[] args) {
